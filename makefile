@@ -5,4 +5,4 @@ sieve.o: sieve.c
 main.o: main.c
 	gcc -c main.c
 run: all
-	time(./main)
+	./main
